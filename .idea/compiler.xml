@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="loggerTrace" />
+        <module name="publish-subscribe" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="loggerTrace" options="-parameters" />
+      <module name="publish-subscribe" options="-parameters" />
       <module name="tchstart" options="-parameters" />
     </option>
   </component>
