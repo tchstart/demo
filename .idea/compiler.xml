@@ -6,15 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tchstart" />
+        <module name="loggerTrace" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="loggerTrace" target="1.8" />
+      <module name="tchstart" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="loggerTrace" options="-parameters" />
       <module name="tchstart" options="-parameters" />
     </option>
   </component>
