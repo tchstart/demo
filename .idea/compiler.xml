@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="loggerTrace" />
+        <module name="LogAop" />
         <module name="publish-subscribe" />
+        <module name="loggerTrace" />
+        <module name="redisLimit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,8 +18,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="LogAop" options="-parameters" />
       <module name="loggerTrace" options="-parameters" />
       <module name="publish-subscribe" options="-parameters" />
+      <module name="redisLimit" options="-parameters" />
       <module name="tchstart" options="-parameters" />
     </option>
   </component>

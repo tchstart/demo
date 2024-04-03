@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/loggerTrace/pom.xml" />
         <option value="$PROJECT_DIR$/publish-subscribe/pom.xml" />
+        <option value="$PROJECT_DIR$/LogAop/pom.xml" />
+        <option value="$PROJECT_DIR$/redisLimit/pom.xml" />
       </list>
     </option>
   </component>
