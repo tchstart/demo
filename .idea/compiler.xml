@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="RedundancyDemo" />
         <module name="LogAop" />
         <module name="publish-subscribe" />
         <module name="loggerTrace" />
@@ -19,6 +20,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="LogAop" options="-parameters" />
+      <module name="RedundancyDemo" options="-parameters" />
       <module name="loggerTrace" options="-parameters" />
       <module name="publish-subscribe" options="-parameters" />
       <module name="redisLimit" options="-parameters" />

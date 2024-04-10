@@ -4,6 +4,8 @@
     <file url="file://D:/environment/Maven/maven_repository/org/springframework/boot/spring-boot-starter-parent/2.2.6.RELEASE/src/main/resources" charset="UTF-8" />
     <file url="file://D:/environment/Maven/maven_repository/org/springframework/boot/spring-boot-starter-parent/2.3.9.RELEASE/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LogAop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RedundancyDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RedundancyDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/loggerTrace/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/publish-subscribe/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/publish-subscribe/src/main/resources" charset="UTF-8" />
